@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 251, 251);
+  font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+    position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #f0dbec;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  text-decoration: none;
+}
+
+
+.container {
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.grid {
+  display: flex;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 300px;
+  width: 100%;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 40vw;
+  padding-top: 15px;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 5px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.logo < img {
+  width: 50%;
+  height: 30%;
+  max-width: 200px;
+  display: flex;
+
+  margin-left: 20px;
+
+}
+
+@media (max-width: 650px) {
+  .logo < img {
+    margin: 0 auto;
+  }
+}
+
+nav {
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+.wave{
+  position: relative;
+  background: linear-gradient(90deg, #e64d9d, #75489f);
+}
+.wave:before{
+content:"";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 230px;
+background: url(https://lh3.googleusercontent.com/3pvwWde21dEGEaDFir6BPdmDVRqnLiHhTNu0ETU8-HmyB7R52jkLi1JQSwOK1SZmG86zolAfZbfk7LdP36V2zQNQHIiZbD8jU8qFDoHFREOYXID7Qnx7fWB7YuJzGGIyyYHFkry6TCSmkurqZvindF8iJs14LDT9mopBCGD9mmYA4P4QIKFVD_Fuk_jMj9bTx4twhdBtiU9ZSTCEHkECZJcIT5uKW_bBiC4wZ9fdu9Ygr2m3SA0QWmroa7KfsYcDRq0WJNGQWr3t2Qtbf_PB1SR7tbfPnU6DRkjXMULiekih0WZ4zVxjVe7vGvDTtG9qBwAfdbnfJm75zJqakEXa7DIHUTPyN2mpJhsTmfUsXqnKYy2WZq-xY-mJ2v0ct91IvazXoogONgVuXuQE4kWQ4Vr4tc4VygXR_tsnCueZ5u-TSXRTqAel2_1d23nwF5YUWOGwigPX3uG1i0w34Jl6B6WnSBfJEgNxMGbesLEz0JIy0neutaT6jciXRPjUZCmVCuXzdWgR0uZIx6M3ubDh9fKHg6zRZeKz8hY_jk00XbwMo4JinKB67VE_PWw3QMBj4qCR5RCxDRWXYz9tEhmMc55TPosC8_uae5tqV1Fw1uT6vuLDM74sAbThoi76QkI_Kh9DavCoId-WAPZAEvofPlCJOpE7eDtwU2HwBBk-HVapWW71VCVFYRlkdWWaJw=w1366-h220-no?authuser=0);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+#Nuestra_filosofia{
+  margin-top: 30px;
+}
+
+#Nuestra_filosofia .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+@media (max-width: 550px) {
+  #Nuestra_filosofia .icon {
+    display: none;
+  }
+}
+
+#Nuestra_filosofia .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  #Nuestra_filosofia .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #Nuestra_filosofia {
+    margin-top: 0;
+  }
+}
+
+#Nuevo_producto {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#Nuevo_producto > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#Cupon {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#submit{
+  margin: 50px;
+}
+
+.wave1{
+  position: relative;
+  background: linear-gradient(90deg, #e64d9d, #75489f);
+  height: 600px;
+}
+.wave1:before{
+content:"";
+position: absolute;
+top: 0;
+left: 0;
+height: 600px;
+background-repeat: no-repeat;
+}
+
+.sobrewave{
+width: 100%;
+height: 200px;
+background: url(img/wave2.png);
+background-size: cover;
+z-index:9999;
+background-position:top center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+.btn {
+  padding: 0 20px;
+  height: 60px;
+  width: 300px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 5px rgb(75, 61, 219) solid;
+  border-radius: 30px;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #ddd;
+}
+
+.pad{
+	padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+{
+#submit{
+  margin-right: 20px;
+
+  }
