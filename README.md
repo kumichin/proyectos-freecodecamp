@@ -1,1 +1,1 @@
-Aqui iré subiendo los proyectos que hago para la plataforma freecodecamp. son proyectos para sacarse el titulo, los subo aqui para tenerlos guardados y como atestiguo de mis horas dedicadas a la programacion. intentaré subir todos los que pueda
+Aqui intentaré subir todos los proyectos y trabajos que hago para free code camp. reunidos en un repositorio
